@@ -1,0 +1,38 @@
+{
+  "name": "knock-client",
+  "version": "0.1.0",
+  "description": "Knock Javascript client for browser.",
+  "keywords": [
+    "Knock",
+    "Real-Time Server"
+  ],
+  "author": {
+    "name": "Scalex Systems",
+    "email": "opensource@scalex.xyz",
+    "url": "http://opensource.scalex.xyz/"
+  },
+  "repository": "zerohq/knock-js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/** test/**",
+    "build": "babel-node --presets es2015 ./rollup.build.js",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0",
+    "rollup": "^0.34.7",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-json": "^2.0.1"
+  },
+  "dependencies": {
+    "engine.io-client": "^1.6.11"
+  }
+}
