@@ -11,6 +11,9 @@
     "email": "opensource@scalex.xyz",
     "url": "http://opensource.scalex.xyz/"
   },
+  "files": [
+    "dist"
+  ],
   "repository": "zerohq/knock-js",
   "license": "MIT",
   "scripts": {
